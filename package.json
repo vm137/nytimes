@@ -1,0 +1,26 @@
+{
+  "name": "nytimes-api",
+  "version": "1.0.0",
+  "description": "API for nytimes.com archive",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vm137/nytimes.git"
+  },
+  "author": "Victor Mikhaylov <victor_mikhaylov@epam.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vm137/nytimes/issues"
+  },
+  "homepage": "https://github.com/vm137/nytimes#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "datatables.net": "^1.10.15",
+    "datatables.net-dt": "^1.10.15",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {}
+}

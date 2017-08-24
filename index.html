@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NY Times API</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/datatables.net/js/jquery.dataTables.js"></script>
+</head>
+<body>
+<div id="up"></div>
+
+<script src="js/main.js"></script>
+<script>
+    const url = "https://api.nytimes.com/svc/search/v2/articlesearch.json";
+    const api_key = "c394daa1f88b433f92eacccd500da9d9";
+
+    $(document).ready(function() {
+        $('#up').nytimes(url, api_key);
+    });
+</script>
+</body>
+</html>

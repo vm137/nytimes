@@ -1,0 +1,15 @@
+table {
+    margin-top: 25px;
+}
+td, th {
+    padding: 5px;
+}
+tr:nth-of-type(even) {
+    background-color: aliceblue;
+}
+.container {
+    margin-top: 30px;
+}
+.col-xs-12 {
+    padding-left: 0;
+}
