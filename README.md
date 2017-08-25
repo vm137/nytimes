@@ -1,7 +1,7 @@
-###JQuery plugin for querying NYTimes.com public API
+### JQuery plugin for making queries to NYTimes.com public API
 
 to start the project:
 
-1. clone project
-2. npm install
-3. open index.html in a browser
+1. `git clone` the project
+2. make `npm install`
+3. open `index.html` in a browser
